@@ -43,7 +43,7 @@ function loadExternalResource(url, type) {
   // 配置选项的具体用法见 README.md
   initWidget({
     waifuPath: live2d_path + 'waifu-tips.json',
-    https://cdn.jsdelivr.net/gh/wtig-z/live2d-widget@main/autoload.js，
+    // 移除无效内容
     cubism2Path: live2d_path + 'live2d.min.js',
     cubism5Path: 'https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js',
     tools: ['hitokoto', 'asteroids', 'switch-model', 'switch-texture', 'photo', 'info', 'quit'],
@@ -53,23 +53,3 @@ function loadExternalResource(url, type) {
 })();
 
 console.log(`\n%cLive2D%cWidget%c\n`, 'padding: 8px; background: #cd3e45; font-weight: bold; font-size: large; color: white;', 'padding: 8px; background: #ff5450; font-size: large; color: #eee;', '');
-
-/*
-く__,.ヘヽ.        /  ,ー､ 〉
-         ＼ ', !-─‐-i  /  /´
-         ／｀ｰ'       L/／｀ヽ､
-       /   ／,   /|   ,   ,       ',
-     ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
-      ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
-        !,/7 '0'     ´0iソ|    |
-        |.从"    _     ,,,, / |./    |
-        ﾚ'| i＞.､,,__  _,.イ /   .i   |
-          ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
-            | |/i 〈|/   i  ,.ﾍ |  i  |
-           .|/ /  ｉ：    ﾍ!    ＼  |
-            kヽ>､ﾊ    _,.ﾍ､    /､!
-            !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
-            ﾚ'ヽL__|___i,___,ンﾚ|ノ
-                ﾄ-,/  |___./
-                'ｰ'    !_,.:
-*/
